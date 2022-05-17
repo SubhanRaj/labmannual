@@ -51,7 +51,7 @@
                 <div h2>
                     <div class="left-right-box">
                         <div class="leftBox">
-                            <h3>HTML Elements</h3>
+                            <h3 class="h3">HTML Elements</h3>
                             <div class="leftBox-content">
                                 <span class="heading">
                                     <b>Heading in HTML</b>
@@ -90,27 +90,32 @@
                             </div>
                         </div>
                         <div class="rightBox">
-                            <h3>HTML Form</h3>
+                            <h3 class="h3">HTML Form</h3>
                             <p>In HTML <code>form</code> tag is used to define form</p>
                             <!-- HTML form example that shows all form tags, input tages and types etc -->
                             <form class="form" action="">
                                 <label for="name">Name:</label>
-                                <input type="text" name="name" id="name" placeholder="Enter Your Name" required>
+                                <input class="input" type="text" name="name" id="name" placeholder="Enter Your Name"
+                                    required>
                                 <label for="password">Password:</label>
-                                <input type="password" name="password" id="password" placeholder="Enter Your Password"
-                                    required>
+                                <input class="input" type="password" name="password" id="password"
+                                    placeholder="Enter Your Password" required>
                                 <label for="email">Email:</label>
-                                <input type="email" name="email" id="email" placeholder="Enter Your Email" required>
-                                <label for="phone">Phone:</label>
-                                <input type="tel" name="phone" id="phone" placeholder="Enter Your Phone Number"
+                                <input class="input" type="email" name="email" id="email" placeholder="Enter Your Email"
                                     required>
-                                <label for="gender">Select gender</label>
-                                <input type="radio" name="gender" id="male" value="male">Male
-                                <input type="radio" name="gender" id="female" value="female">Female
+                                <label for="phone">Phone:</label>
+                                <input class="input" type="tel" name="phone" id="phone"
+                                    placeholder="Enter Your Phone Number" required>
+                                <div class="gender">
+                                    <label for="gender">Select gender</label>
+                                    <input type="radio" name="gender" id="male" value="male">Male
+                                    <input type="radio" name="gender" id="female" value="female">Female
+                                </div>
                                 <label for="dob">Date of Birth:</label>
-                                <input type="date" name="dob" id="dob" placeholder="Enter Your Date of Birth" required>
+                                <input class="input" type="date" name="dob" id="dob"
+                                    placeholder="Enter Your Date of Birth" required>
                                 <label for="address">Address:</label>
-                                <textarea name="address" id="address" cols="30" rows="10"
+                                <textarea name="address" id="address" cols="10" rows="10"
                                     placeholder="Enter Your Address" required></textarea>
                                 <label for="state"></label>
                                 <!-- Select box for states in India -->
@@ -147,17 +152,19 @@
                                     <option value="West Bengal">West Bengal</option>
                                 </select>
                                 <label for="pincode">Pin Code:</label>
-                                <input type="number" name="pincode" id="pincode" placeholder="Enter Your Pin Code"
-                                    required maxlength="6">
+                                <input class="input" type="number" name="pincode" id="pincode"
+                                    placeholder="Enter Your Pin Code" required maxlength="6">
                                 <label for="country">Country:</label>
-                                <input type="text" name="country" id="country" placeholder="Enter Your Country"
-                                    required>
+                                <input class="input" type="text" name="country" id="country"
+                                    placeholder="Enter Your Country" required>
                                 <label for="range">Range of your salary:</label>
-                                <input type="range" name="range" id="range" min="0" max="100" value="50" required>
+                                <input class="input" type="range" name="range" id="range" min="0" max="100" value="50"
+                                    required>
                                 <label for="favorite">Favorite Color:</label>
-                                <input type="color" name="favorite" id="favorite" value="#ff0000" required>
+                                <input class="input" type="color" name="favorite" id="favorite" value="#ff0000"
+                                    required>
                                 <label for="file">Upload Your File:</label>
-                                <input type="file" name="file" id="file" required>
+                                <input class=".fileUpload"type="file" name="file" id="file" required>
                                 <label for="checkbox">Checkbox:</label>
                                 <input type="checkbox" name="checkbox" id="checkbox" required> I agree to the terms and
                                 conditions

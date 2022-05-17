@@ -1,5 +1,5 @@
 /* Google Font */
-@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Ubuntu:wght@300&family=Zen+Loop&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Permanent+Marker&family=Ubuntu:wght@300&family=Zen+Loop&display=swap');
 
 /* CSS Reset */
 * {
@@ -73,6 +73,10 @@ body {
 }
 
 /* Main  */
+.h3 {
+    text-align: center;
+    font: 2rem  Zen Loop;
+}
 .main {
     height: 100vh;
     box-sizing: border-box;
@@ -95,7 +99,6 @@ body {
     width: 50%;
     border: 2px solid red;
     padding: .5rem 1.5rem;
-    
     margin-right: .5rem;
     height: 100%;
 }
@@ -108,3 +111,29 @@ body {
     height: 100%;
     margin-left: .5rem;
 } 
+
+/* .rightBox .form styling */
+.form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    overflow-y: hidden;
+    width: 100%;
+    
+}
+.form label{
+    font-family: Permanent Marker, cursive;
+    margin-top: .2rem;
+}
+.form .input{
+    width: 75%;
+    height: 2rem;
+    border: 2px solid #000;
+    border-radius: 5px;
+    margin: .5rem;
+
+}
+::placeholder{
+    font-family: Permanent Marker, cursive;
+    color: rgb(155, 155, 155);
+}
