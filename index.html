@@ -94,80 +94,102 @@
                             <p>In HTML <code>form</code> tag is used to define form</p>
                             <!-- HTML form example that shows all form tags, input tages and types etc -->
                             <form class="form" action="">
-                                <label for="name">Name:</label>
-                                <input class="input" type="text" name="name" id="name" placeholder="Enter Your Name"
-                                    required>
-                                <label for="password">Password:</label>
-                                <input class="input" type="password" name="password" id="password"
-                                    placeholder="Enter Your Password" required>
-                                <label for="email">Email:</label>
-                                <input class="input" type="email" name="email" id="email" placeholder="Enter Your Email"
-                                    required>
-                                <label for="phone">Phone:</label>
-                                <input class="input" type="tel" name="phone" id="phone"
-                                    placeholder="Enter Your Phone Number" required>
-                                <div class="gender">
+                                <div class="input">
+                                    <label for="name">Name:</label>
+                                    <input type="text" name="name" id="name" placeholder="Enter Your Name" required>
+                                </div>
+                                <div class="input">
+                                    <label for="password">Password:</label>
+                                    <input type="password" name="password" id="password"
+                                        placeholder="Enter Your Password" required>
+                                </div>
+                                <div class="input">
+                                    <label for="email">Email:</label>
+                                    <input type="email" name="email" id="email" placeholder="Enter Your Email" required>
+                                </div>
+                                <div class="input">
+                                    <label for="phone">Phone:</label>
+                                    <input type="tel" name="phone" id="phone" placeholder="Enter Your Phone" required>
+                                </div>
+                                <div class="input">
                                     <label for="gender">Select gender</label>
                                     <input type="radio" name="gender" id="male" value="male">Male
                                     <input type="radio" name="gender" id="female" value="female">Female
                                 </div>
-                                <label for="dob">Date of Birth:</label>
-                                <input class="input" type="date" name="dob" id="dob"
-                                    placeholder="Enter Your Date of Birth" required>
-                                <label for="address">Address:</label>
-                                <textarea name="address" id="address" cols="10" rows="10"
-                                    placeholder="Enter Your Address" required></textarea>
-                                <label for="state"></label>
-                                <!-- Select box for states in India -->
-                                <select name="state" id="state">
-                                    <option value="">Select State</option>
-                                    <option value="Andhra Pradesh">Andhra Pradesh</option>
-                                    <option value="Arunachal Pradesh">Arunachal Pradesh</option>
-                                    <option value="Assam">Assam</option>
-                                    <option value="Bihar">Bihar</option>
-                                    <option value="Chhattisgarh">Chhattisgarh</option>
-                                    <option value="Goa">Goa</option>
-                                    <option value="Gujarat">Gujarat</option>
-                                    <option value="Haryana">Haryana</option>
-                                    <option value="Himachal Pradesh">Himachal Pradesh</option>
-                                    <option value="Jammu and Kashmir">Jammu and Kashmir</option>
-                                    <option value="Jharkhand">Jharkhand</option>
-                                    <option value="Karnataka">Karnataka</option>
-                                    <option value="Kerala">Kerala</option>
-                                    <option value="Madhya Pradesh">Madhya Pradesh</option>
-                                    <option value="Maharashtra">Maharashtra</option>
-                                    <option value="Manipur">Manipur</option>
-                                    <option value="Meghalaya">Meghalaya</option>
-                                    <option value="Mizoram">Mizoram</option>
-                                    <option value="Nagaland">Nagaland</option>
-                                    <option value="Odisha">Odisha</option>
-                                    <option value="Punjab">Punjab</option>
-                                    <option value="Rajasthan">Rajasthan</option>
-                                    <option value="Sikkim">Sikkim</option>
-                                    <option value="Tamil Nadu">Tamil Nadu</option>
-                                    <option value="Telangana">Telangana</option>
-                                    <option value="Tripura">Tripura</option>
-                                    <option value="Uttar Pradesh">Uttar Pradesh</option>
-                                    <option value="Uttarakhand">Uttarakhand</option>
-                                    <option value="West Bengal">West Bengal</option>
-                                </select>
-                                <label for="pincode">Pin Code:</label>
-                                <input class="input" type="number" name="pincode" id="pincode"
-                                    placeholder="Enter Your Pin Code" required maxlength="6">
-                                <label for="country">Country:</label>
-                                <input class="input" type="text" name="country" id="country"
-                                    placeholder="Enter Your Country" required>
-                                <label for="range">Range of your salary:</label>
-                                <input class="input" type="range" name="range" id="range" min="0" max="100" value="50"
-                                    required>
-                                <label for="favorite">Favorite Color:</label>
-                                <input class="input" type="color" name="favorite" id="favorite" value="#ff0000"
-                                    required>
-                                <label for="file">Upload Your File:</label>
-                                <input class=".fileUpload"type="file" name="file" id="file" required>
-                                <label for="checkbox">Checkbox:</label>
-                                <input type="checkbox" name="checkbox" id="checkbox" required> I agree to the terms and
-                                conditions
+                                <div class="input">
+                                    <label for="dob">Date of Birth:</label>
+                                    <input type="date" name="dob" id="dob" placeholder="Enter Your Date of Birth"
+                                        required>
+                                </div>
+                                <div class="input">
+                                    <label for="address">Address:</label>
+                                    <textarea name="address" id="address" cols="10" rows="10"
+                                        placeholder="Enter Your Address" required></textarea>
+                                </div>
+                                <div class="input">
+                                    <label for="state">State:</label>
+                                    <!-- Select box for states in India -->
+                                    <select name="state" id="state">
+                                        <option value="">Select State</option>
+                                        <option value="Andhra Pradesh">Andhra Pradesh</option>
+                                        <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+                                        <option value="Assam">Assam</option>
+                                        <option value="Bihar">Bihar</option>
+                                        <option value="Chhattisgarh">Chhattisgarh</option>
+                                        <option value="Goa">Goa</option>
+                                        <option value="Gujarat">Gujarat</option>
+                                        <option value="Haryana">Haryana</option>
+                                        <option value="Himachal Pradesh">Himachal Pradesh</option>
+                                        <option value="Jammu and Kashmir">Jammu and Kashmir</option>
+                                        <option value="Jharkhand">Jharkhand</option>
+                                        <option value="Karnataka">Karnataka</option>
+                                        <option value="Kerala">Kerala</option>
+                                        <option value="Madhya Pradesh">Madhya Pradesh</option>
+                                        <option value="Maharashtra">Maharashtra</option>
+                                        <option value="Manipur">Manipur</option>
+                                        <option value="Meghalaya">Meghalaya</option>
+                                        <option value="Mizoram">Mizoram</option>
+                                        <option value="Nagaland">Nagaland</option>
+                                        <option value="Odisha">Odisha</option>
+                                        <option value="Punjab">Punjab</option>
+                                        <option value="Rajasthan">Rajasthan</option>
+                                        <option value="Sikkim">Sikkim</option>
+                                        <option value="Tamil Nadu">Tamil Nadu</option>
+                                        <option value="Telangana">Telangana</option>
+                                        <option value="Tripura">Tripura</option>
+                                        <option value="Uttar Pradesh">Uttar Pradesh</option>
+                                        <option value="Uttarakhand">Uttarakhand</option>
+                                        <option value="West Bengal">West Bengal</option>
+                                    </select>
+                                </div>
+                                <div class="input">
+                                    <label for="pincode">Pin Code:</label>
+                                    <input type="number" name="pincode" id="pincode" placeholder="Enter Your Pin Code"
+                                        required maxlength="6">
+                                </div>
+                                <div class="input">
+                                    <label for="country">Country:</label>
+                                    <input type="text" name="country" id="country" placeholder="Enter Your Country"
+                                        required>
+                                </div>
+                                <div class="input">
+                                    <label for="range">Range of your salary:</label>
+                                    <input type="range" name="range" id="range" min="0" max="100" value="50" required>
+                                </div>
+                                <div class="input">
+                                    <label for="favorite">Favorite Color:</label>
+                                    <input type="color" name="favorite" id="favorite" value="#ff0000" required>
+                                </div>
+                                <div class="button">
+                                    <label for="file">Upload Your File:</label>
+                                    <input class=".fileUpload" type="file" name="file" id="file" required>
+                                </div>
+                                <div class="input">
+                                    <label for="checkbox">Checkbox:</label>
+                                    <input type="checkbox" name="checkbox" id="checkbox" required> I agree to the terms
+                                    and
+                                    conditions
+                                </div>
                                 <input type="submit" value="submit">
                                 <input type="reset" value="reset">
 
