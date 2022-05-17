@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Web Technology Lab Mannual">
+    <meta name="keywords" content="Web Technology, CSE, CS, KMCLU, Lab Mannual">
+    <base href="./">
+    <link rel="stylesheet" href="/style.css">
+    <title>Web Technology Lab Mannual</title>
+</head>
+
+<body>
+    <div class="header">
+        <div class="container">
+            <div class="navbar-brand">
+                <a href="/">
+                    <img src="/logo.png" alt="Web Technology Lab Mannual">
+                    <h1>Web Technology Lab Mannual</h1>
+                </a>
+                <span class="navbar-burger burger" data-target="navbarMenu">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </span>
+            </div>
+            <div id="navbarMenu" class="navbar-menu">
+                <div class="navbar-end">
+                    <a class="navbar-item" href="/">
+                        Home
+                    </a>
+                    <a class="navbar-item" href="/about.html">
+                        About
+                    </a>
+                    <a class="navbar-item" href="/contact.html">
+                        Contact
+                    </a>
+                    <a class="navbar-item" href="/login.php">
+                        Login
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="main">
+        <div class="content">
+            <div h2>
+                <a href="/">Web Technology Lab Mannual</a>
+                <div h2>
+                    <div class="left-right-box">
+                        <div class="leftBox">
+                            <h3>HTML Elements</h3>
+                            <div class="leftBox-content">
+                                <span class="heading">
+                                    <b>Heading in HTML</b>
+                                    <br>
+                                    HTML has following 6 tags to define headings from <code>h1</code> to <code>h6</code>
+                                    <h1>This is in h1</h1>
+                                    <h2>This is in h2</h2>
+                                    <h3>This is in h3</h3>
+                                    <h4>This is in h4</h4>
+                                    <h5>This is in h5</h5>
+                                    <h6>This is in h6</h6>
+                                </span>
+                                <span class="heading">
+                                    <b>Paragraph in HTML</b>
+                                    <br>
+                                    HTML has following tag to define paragraph <code>p</code>
+                                    <p>This is in paragraph</p>
+                                </span>
+                                <span class="heading">
+                                    <b>List in HTML</b>
+                                    <br>
+                                    HTML has following tags to define list <code>ul</code> and <code>ol</code>
+                                    <ul>
+                                        <li>Unordered list item</li>
+                                        <li>Another Unordered list item</li>
+                                        <li>Another Unordered list item</li>
+                                    </ul>
+                                    <ol>
+                                        <li>Ordered List Item 1</li>
+                                        <li>Ordered List Item 2</li>
+                                        <li>Ordered List Item 3</li>
+                                    </ol>
+                                    <p>Here <code>ul</code> and <code>ol</code> are used to define unordered list and
+                                        ordered list respectively</p>
+                                </span>
+                            </div>
+                        </div>
+                        <div class="rightBox">
+                            <h3>HTML Form</h3>
+                            <p>In HTML <code>form</code> tag is used to define form</p>
+                            <!-- HTML form example that shows all form tags, input tages and types etc -->
+                            <form class="form" action="">
+                                <label for="name">Name:</label>
+                                <input type="text" name="name" id="name" placeholder="Enter Your Name" required>
+                                <label for="password">Password:</label>
+                                <input type="password" name="password" id="password" placeholder="Enter Your Password"
+                                    required>
+                                <label for="email">Email:</label>
+                                <input type="email" name="email" id="email" placeholder="Enter Your Email" required>
+                                <label for="phone">Phone:</label>
+                                <input type="tel" name="phone" id="phone" placeholder="Enter Your Phone Number"
+                                    required>
+                                <label for="gender">Select gender</label>
+                                <input type="radio" name="gender" id="male" value="male">Male
+                                <input type="radio" name="gender" id="female" value="female">Female
+                                <label for="dob">Date of Birth:</label>
+                                <input type="date" name="dob" id="dob" placeholder="Enter Your Date of Birth" required>
+                                <label for="address">Address:</label>
+                                <textarea name="address" id="address" cols="30" rows="10"
+                                    placeholder="Enter Your Address" required></textarea>
+                                <label for="state"></label>
+                                <!-- Select box for states in India -->
+                                <select name="state" id="state">
+                                    <option value="">Select State</option>
+                                    <option value="Andhra Pradesh">Andhra Pradesh</option>
+                                    <option value="Arunachal Pradesh">Arunachal Pradesh</option>
+                                    <option value="Assam">Assam</option>
+                                    <option value="Bihar">Bihar</option>
+                                    <option value="Chhattisgarh">Chhattisgarh</option>
+                                    <option value="Goa">Goa</option>
+                                    <option value="Gujarat">Gujarat</option>
+                                    <option value="Haryana">Haryana</option>
+                                    <option value="Himachal Pradesh">Himachal Pradesh</option>
+                                    <option value="Jammu and Kashmir">Jammu and Kashmir</option>
+                                    <option value="Jharkhand">Jharkhand</option>
+                                    <option value="Karnataka">Karnataka</option>
+                                    <option value="Kerala">Kerala</option>
+                                    <option value="Madhya Pradesh">Madhya Pradesh</option>
+                                    <option value="Maharashtra">Maharashtra</option>
+                                    <option value="Manipur">Manipur</option>
+                                    <option value="Meghalaya">Meghalaya</option>
+                                    <option value="Mizoram">Mizoram</option>
+                                    <option value="Nagaland">Nagaland</option>
+                                    <option value="Odisha">Odisha</option>
+                                    <option value="Punjab">Punjab</option>
+                                    <option value="Rajasthan">Rajasthan</option>
+                                    <option value="Sikkim">Sikkim</option>
+                                    <option value="Tamil Nadu">Tamil Nadu</option>
+                                    <option value="Telangana">Telangana</option>
+                                    <option value="Tripura">Tripura</option>
+                                    <option value="Uttar Pradesh">Uttar Pradesh</option>
+                                    <option value="Uttarakhand">Uttarakhand</option>
+                                    <option value="West Bengal">West Bengal</option>
+                                </select>
+                                <label for="pincode">Pin Code:</label>
+                                <input type="number" name="pincode" id="pincode" placeholder="Enter Your Pin Code"
+                                    required maxlength="6">
+                                <label for="country">Country:</label>
+                                <input type="text" name="country" id="country" placeholder="Enter Your Country"
+                                    required>
+                                <label for="range">Range of your salary:</label>
+                                <input type="range" name="range" id="range" min="0" max="100" value="50" required>
+                                <label for="favorite">Favorite Color:</label>
+                                <input type="color" name="favorite" id="favorite" value="#ff0000" required>
+                                <label for="file">Upload Your File:</label>
+                                <input type="file" name="file" id="file" required>
+                                <label for="checkbox">Checkbox:</label>
+                                <input type="checkbox" name="checkbox" id="checkbox" required> I agree to the terms and
+                                conditions
+                                <input type="submit" value="submit">
+                                <input type="reset" value="reset">
+
+
+
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer">
+
+            </div>
+
+</body>
+
+</html>

@@ -1,0 +1,110 @@
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Ubuntu:wght@300&family=Zen+Loop&display=swap');
+
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0%;
+}
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.2rem;
+    background-color: #f5f5f5;
+}
+
+.header {
+    font-family: pacifico, cursive;
+    width: 100vw;
+    height: 100%;
+    overflow-y: hidden;
+    display: inline-block;
+    position: sticky;
+    padding: .5rem 0;
+    background-color: #000;
+    z-index: 1;
+
+}
+
+.header .container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.header .container .navbar-brand {
+    width: 25vw;
+
+}
+
+.header .navbar-brand a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: #f5f5f5;
+}
+
+.header .navbar-brand a h1 {
+    margin-left: 1rem;
+    font-size: 1.2rem;
+}
+
+.header .navbar-brand a img {
+    height: 64px;
+    width: 64px;
+}
+
+.header .container .navbar-menu {
+    width: 75vw;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    margin-right: 1rem;
+}
+
+.container .navbar-menu .navbar-item {
+    text-decoration: none;
+    padding: .5rem;
+    color: #f5f5f5;
+}
+
+/* Main  */
+.main {
+    height: 100vh;
+    box-sizing: border-box;
+    
+}
+
+.main .content {
+    text-align: center;
+}
+.left-right-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+    margin-top: 1rem;
+}
+.content .leftBox {
+    text-align: left;
+    width: 50%;
+    border: 2px solid red;
+    padding: .5rem 1.5rem;
+    
+    margin-right: .5rem;
+    height: 100%;
+}
+
+.content .rightBox {
+    text-align: left; 
+    border: 2px solid red;
+    padding: .5rem;
+    width: 50%;
+    height: 100%;
+    margin-left: .5rem;
+} 
